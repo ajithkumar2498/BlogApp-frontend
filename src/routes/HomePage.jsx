@@ -21,8 +21,8 @@ const HomePage = () => {
       <div className="flex items-center justify-between">
         {/* titles */}
         <div className=''>
-            <h1 className='text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
-            <p className='mt-8 text-md md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.repellendus, reprehenderit impedit corrupti neque eos quae corporis perspiciatis inventore facere voluptate sapiente nihil sit dolorem quibusdam itaque hic!</p>
+            <h1 className='text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold'>Shape the Future With Your Words—Start Your Blogging Journey Today!</h1>
+            <p className='mt-8 text-md md:text-xl'>Our platform is designed for creators, thinkers, and storytellers to share their ideas and insights with the world. Whether you're an aspiring writer, a seasoned blogger, or someone looking to explore the art of expression, blogify offers a seamless way to connect with an audience that shares your passion.</p>
         </div>
         {/* ANimated Button */}
         <Link to = "write" className='hidden md:block relative'>
