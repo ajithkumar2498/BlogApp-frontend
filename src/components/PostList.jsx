@@ -8,7 +8,7 @@ import { useSearchParams } from 'react-router-dom'
 const fetchPosts = async (pageParam, searchParams)=>{
 
    const searchParamsObject = Object.fromEntries([...searchParams])
-   console.log(searchParamsObject)
+
    const res = await AxiosService.get("/posts/all-posts", {
       params: { page : pageParam, limit : 10, ...searchParamsObject}
    })

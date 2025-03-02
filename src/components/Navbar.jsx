@@ -10,11 +10,11 @@ const Navbar = () => {
   const [open,setOpen] = useState(false)
 
   const {getToken} = useAuth()
-  const token =  getToken().then(token => console.log(token))
-  console.log(token)
+  const token =  getToken().then(token => token)
+
 
   useEffect(()=>{
-    getToken().then(token => console.log(`Bearer ${token}`))
+    getToken().then(token => token)
   },[])
 
   return <>
